@@ -1,0 +1,14 @@
+:root {
+    --bgc-white: white;
+    --text-color-black: black;
+}
+/* dinamic values color or anything more */
+body {
+    text-align: center;
+}
+/* text body center */
+.title {
+    font-size: 24px;
+    color:aqua;
+}
+/* <h1 class="title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1> */
