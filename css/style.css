@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 :root {
     --accent-color: #2196F3;
     --bgc: #ffffff;
