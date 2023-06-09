@@ -29,11 +29,12 @@ p {
 
 /* container */
 .container {
-    width: 1170px;
+    width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
 
 }
 
@@ -64,7 +65,7 @@ body {
     font-size: 14px;
     line-height: 1.17;
     font-weight: 500;
-    margin-top: 0;
+    margin: 0px;
 }
 /* hero */
 .hero {
@@ -193,6 +194,18 @@ ul {
     margin-right: 50px;
 }
 
+/* footer */
+
+.footer {
+    background-color: #2F303A;
+    margin-bottom: 0px;
+}
+
+.footer-list {
+    padding-left: 0;
+    margin-bottom: 0px;
+}
+
 .logo-footer {
     display: block;
     margin-bottom: 3.5px;
@@ -202,17 +215,88 @@ ul {
 .address-footer,
 .address-footer>a {
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
     color:white;
 }
 
+/* flex */
+
+.flex-b {
+    display: flex;
+    margin-top: 115px;
+    margin-bottom: 118px;
+}
+
+.flex-title-b {
+    margin-bottom: 10px;
+}
+
+.flex-item-b {
+    width: 270px;
+}
+
+.flex-item-b:not(:last-child) {
+    margin-right: 30px;
+}
 
 
+.hide {
+    display: none;
+}
 
+/* What we do */
 
+.flex {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0px;
+    margin-top: 0px;
+}
 
+.flex.wwd {
+    margin-bottom: 94px;
+}
 
+.flex-item-wwd:not(:last-child) {
+    margin-right: 30px;
+}
 
+.title.title-wwd {
+    margin-bottom: 50px;
+}
+
+/* Our team */
+
+.flex.ot {
+    margin-bottom: 0px;
+}
+
+.title.title-ot {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+
+.flex-item-ot:not(:last-child) {
+    margin-right: 30px;
+}
+
+.flex-text {
+    margin-bottom: 30px;
+}
+
+.flex-item-ot {
+    
+    border-bottom: 2px solid #757575;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 94px;
+}
+
+.header-ot {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -221,28 +305,12 @@ ul {
     --bgc-white: white;
     --text-color-black: black;
 }
-/* dinamic values color or anything more */
 
-/* <h1 class="title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1> */
 /* h1::first-letter {
     font-size: 40px;
 }
+
 h1::selection {
     color: #ffffff;
     background-color: #3f51b5;
   }
-  /* Область вмісту (content) - це контент елемента, наприклад текст, зображення, відео або вкладені елементи.
-  За замовчуванням висота області вмісту визначається контентом, ширина - типом елемента (блоковий або рядковий).
-Внутрішнє поле (padding) - це відстань між контентом елемента і його рамкою (border). Використовується для декоративних ефектів. Не можна встановлювати від'ємні значення.
-Рамка (border) - межа елемента, за замовчуванням її ширина дорівнює нулю. Якщо колір рамки не заданий, вона приймає колір основного вмісту, наприклад тексту.
-Зовнішній відступ (margin) - додає відступ зовні елемента, від зовнішньої межі (рамки) до сусідніх елементів, 
-у такий спосіб розділяючи їх на сторінці. Може приймати від'ємні значення. Фон елемента ніколи не поширюється на зовнішній відступ. */
-/* h1 {
-    text-align: center;
-    width: 400px;
-    height: 80px;
-    border: 0.1px solid #000000;
-    padding: 10px;
-    margin-left: 0%;
-    background-color: #ffffff;
-  } */ 
