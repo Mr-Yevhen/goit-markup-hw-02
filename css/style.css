@@ -46,6 +46,11 @@ p {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.text-f:hover,
+.text-f:focus {
+    color: var(--accent-color); 
+}
+
 /* body */
 body {
     font-family: 'Roboto', sans-serif;
@@ -96,6 +101,7 @@ color: var(--bgc);
 
 /* logo */
 .logo {
+width: 145px;
 margin-right: 0px;
 padding-top: 24px;
 padding-bottom: 24px;
@@ -106,6 +112,7 @@ line-height: 1.17;
 text-decoration: none;
 color: #000000;
 }
+
 .logo-web {
     font-family: "Raleway", sans-serif;
     color: var(--accent-color);
