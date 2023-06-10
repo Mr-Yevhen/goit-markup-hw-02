@@ -29,14 +29,18 @@ p {
 
 /* container */
 .container {
-    width: 1230px;
+    max-width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     margin-bottom: 0px;
-
-}
+    }
+     /* Стилі для планшетів і мобільних пристроїв */
+    @media (max-width: 768px) {
+      .container {
+        width: 100%;
+      }
+    }
 
 /* text */
 .text {
@@ -65,7 +69,7 @@ body {
 .hero {
     background-color: #2F303A;
     height: 600px;
-    min-width: 900px;
+    min-width: 1230px;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.34;
@@ -173,6 +177,7 @@ ul {
 .footer {
     background-color: #2F303A;
     min-height: 251px;
+    min-width: 1230px;
     border: 0.0001px solid #2F303A;
     padding-bottom: 60px;
 }
