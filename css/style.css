@@ -70,6 +70,7 @@ body {
     background-color: #2F303A;
     height: 600px;
     min-width: 1230px;
+    max-width: none;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.34;
@@ -177,6 +178,7 @@ ul {
 .footer {
     background-color: #2F303A;
     min-height: 251px;
+    max-width: none;
     min-width: 1230px;
     border: 0.0001px solid #2F303A;
     padding-bottom: 60px;
